@@ -39,7 +39,7 @@ public class AutoITdemo {
 		/* Write this script using scite tool
 		 
 ControlFocus("Open","","Edit1")
-ControlSetText("Open","","Edit1","C:\Users\sonal\Documents\ATE-Phase1-SL\JDBCconnectivity.png")
+ControlSetText("Open","","Edit1","C:\Users\ashu\Documents\ATE-Phase1-SL\JDBCconnectivity.png")
 ControlClick("Open","","Button1")
 		 */
 		// save the script in a folder on your desktop
@@ -47,7 +47,7 @@ ControlClick("Open","","Button1")
 		// a new compiled file will be there
 		// Now we have toa sk autoIT tool to run this compiled script
 
-		Runtime.getRuntime().exec("C:\\Users\\sonal\\Desktop\\AutiitScripts\\Scriptupload3.exe");
+		Runtime.getRuntime().exec("C:\\Users\\ashu\\Desktop\\AutiitScripts\\Scriptupload3.exe");
 		
 		
 		
