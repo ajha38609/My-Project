@@ -1,0 +1,16 @@
+package com.app.junitDemo;
+
+import org.junit.jupiter.api.Test;
+
+public class TestAnnotation {
+	//Change the java library in the project if you are not getting option to run junit test case
+	//Right click on the project> build path> libraries > select JRE system library> click on remove button
+	// click on add library> select JRE system Library>click on first radio button> from drop down
+	// select the java version that is on your machine> save the changes
+	@Test
+	public void Method1() // unit test method
+	{
+		System.out.println("Hello Tanya");
+	}
+
+}
